@@ -1,0 +1,101 @@
+
+    footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  /* margin: 0; */
+
+}
+
+
+
+.container-footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+
+.contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact li {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.contact li i {
+  margin-right: 10px;
+}
+
+.nav,
+.social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li,
+.social li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav li a,
+.social li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav li a:hover,
+.social li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 968px) {
+  .container-footer {
+    padding: 0 20px;
+  }
+  
+  .row {
+    flex-direction: column;
+  }
+  
+  .col-md-6 {
+    width: 100%;
+  }
+  
+  .nav li,
+  .social li {
+    display: block;
+    margin-top: 10px;
+   
+  }
+
+
+}
+/* Set the width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 20px;
+}
+
+/* Set the background color of the scrollbar */
+::-webkit-scrollbar-track {
+  background-color: #f50303;
+}
+
+/* Set the color and style of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #0019fd;
+  /* border-radius: 6px; */
+}
+
+/* Set the color and style of the scrollbar thumb on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+} */
+

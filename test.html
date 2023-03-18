@@ -1,0 +1,173 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="u.png" type="image/png">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    
+</head>
+
+
+
+
+<body>
+
+
+ <div class="can-head" >
+<canvas id="canvas" width="450" style="border:solid black 2px  ;" >
+    Your browser does not support canvas element.
+    <script src="test.js"></script>
+  </canvas>
+  <br>
+<center><button type="button" id="clear" value="Clear" >Clear </button>
+  <button onclick="download_image()" id="clear">
+    Download
+    </button></center>
+<script >
+ 
+document.getElementById('clear').addEventListener('click', function() {
+          context.clearRect(0, 0, canvas.width, canvas.height);
+        }, false);
+
+
+</script>
+  <pre id="log" style="border: 1px solid #ccc;"></pre>
+
+  <div id="alert-box">Device width is too small! This is not for mobile devices </div>
+</div>
+
+  <style>
+
+
+    #log {
+  height: 60px;
+  width: 100%;
+  overflow: scroll;
+display: none;
+
+}
+
+.can-head{
+background-color: #343030;
+margin-top: 70;
+}
+
+#clear{
+    background-color: #f25;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    width: min-content;
+    padding: 15px;
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: 0.3s;
+margin-top: 60px;
+margin-bottom: 60px;
+    
+}
+#alert-box {
+  display: none;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 9999;
+}
+
+
+#canvas{
+    background-color: white;
+    color: #980000;
+    
+
+    /* width: 400; */
+   
+}
+
+
+
+@media(max-width:669px){
+
+  body{zoom: 90%;}
+}
+
+canvas{
+  width: 100%;
+  color: #ff0000;
+
+}
+  </style>
+
+  <script>
+ 
+    
+
+
+  
+  </script>
+</body>
+
+<footer>
+  <div class="container-footer">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h3 class="h3-footer">About Us</h3>
+       
+        <p class="p-footer">We are a team of passionate designers and developers who love creating beautiful, responsive websites and applications.</p>
+     
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <h3 class="h3-footer">Contact Us</h3>
+        <ul class="contact">
+          <li><i class="bi bi-geo-alt-fill"></i>A/3 Jayasree Park Lane</li>
+          <li><i class="bi bi-phone"></i>9123353984</li>
+          <li><i class="bi bi-envelope"></i>sampritghosh310@gmail.com</li>
+        </ul>
+        
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        
+        <ul class="nav">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.html">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <br>
+        <ul class="social">
+          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="#"><i class="bi bi-twitter"></i></i></a></li>
+          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  
+    
+</html>
+
+
