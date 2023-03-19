@@ -3,59 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>My Awesome GitHub Repository</title>
-<style>
-  body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f2f2;
-  color: #333;
-}
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: 40px;
-}
-
-p {
-  margin: 0;
-  font-size: 18px;
-}
-
-section {
-  margin: 20px;
-  padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-h2 {
-  margin-top: 0;
-  font-size: 24px;
-}
-
-pre {
-  background-color: #eee;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-code {
-  font-size: 16px;
-  background-color: #eee;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-  
-  </style>
     
   </head>
   <body>
