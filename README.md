@@ -1,35 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Awesome GitHub Repository</title>
+<style>
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
 
-<h1 style="color: #1a94bd">Drawing App</h1>
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
 
-Sketchpad: Free online drawing application for all ages. Create digital artwork to share online and export to popular image formats JPEG, PNG
+h1 {
+  margin: 0;
+  font-size: 40px;
+}
 
-## Table of Contents
+p {
+  margin: 0;
+  font-size: 18px;
+}
 
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
-## Getting Started
+h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
 
-Instructions on how to get a copy of the project up and running on your local machine.
+pre {
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
 
-### Prerequisites
+code {
+  font-size: 16px;
+  background-color: #eee;
+  padding: 5px;
+  border-radius: 5px;
+}
 
-List of things needed before getting started with the project
-
-### Installation
-
-Step-by-step instructions on how to install the project on your local machine.
-
-## Usage
-
-Instructions on how to use the project.
-
-## Contributing
-
-Instructions on how to contribute to the project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+  
+  </style>
+    
+  </head>
+  <body>
+    <header>
+      <h1>My Awesome GitHub Repository</h1>
+      <p>Here is some information about my awesome project.</p>
+    </header>
+    <section>
+      <h2>About</h2>
+      <p>This project does something really cool.</p>
+    </section>
+    <section>
+      <h2>Installation</h2>
+      <p>To install this project, run the following command:</p>
+      <pre><code>npm install my-awesome-project</code></pre>
+    </section>
+    <section>
+      <h2>Usage</h2>
+      <p>Here is how to use my awesome project.</p>
+      <pre><code>const myAwesomeProject = require('my-awesome-project');
+myAwesomeProject.doSomething();</code></pre>
+    </section>
+    <section>
+      <h2>Contributing</h2>
+      <p>Contributions are welcome! Please follow these guidelines.</p>
+    </section>
+    <section>
+      <h2>License</h2>
+      <p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
+    </section>
+  </body>
+</html>
