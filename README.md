@@ -1,6 +1,6 @@
 # Project Title
 
-One Paragraph of project description goes here
+Sketchpad: Free online drawing application for all ages. Create digital artwork to share online and export to popular image formats JPEG, PNG
 
 ## Table of Contents
 
