@@ -1,4 +1,4 @@
-# Project Title
+
 <h1 style="color: #1a94bd">Drawing App</h1>
 
 Sketchpad: Free online drawing application for all ages. Create digital artwork to share online and export to popular image formats JPEG, PNG
